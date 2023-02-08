@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&display=swap');
+
+:root{
+    --font-family: 'Poppins', sans-serif;
+    --cursive: 'Satisfy', cursive;
+    --font-size: 20px;
+    --green: rgb(42, 216, 42);
+    --red: red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--font-family);
+    background-image: url(images/solarPanel.jpg);
+    background-color: rgb(114, 108, 108);
+    background-blend-mode: screen;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.max-width{       
+    max-width: 1300px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 1%;
+}
+
+h4{
+    text-align: Left;
+    margin-top: 1%; 
+}
+
+p{
+    text-align: justify;
+    padding: 1% 5%;
+}
+
+span{
+    font-style: italic;
+    color: blue;
+}
+
+/*==============================================================
+==============================================================*/
+
+.header{
+    position: fixed;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    background-color: tomato;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 auto;
+    width: 100vw;
+    z-index: 99;
+}
+
+.header a{
+    color: aliceblue;
+}
+
+.container{
+    display: grid;
+    position: relative;
+    max-height: 100vh;
+    max-width: 1300px;
+    grid-template-columns: .5fr 2fr .75fr;
+    grid-template-rows: 650px;
+    gap: 10px;
+    padding: 10px;
+}
+
+/*
+.container div{
+    padding: 10px;
+    border: solid 1px black;
+}
+*/
+
+.buttons{
+    grid-column-start: 1;
+    margin-top: 18%;
+}
+
+section{
+    position: relative;
+}
+
+.content{
+    grid-column-start: 2;
+    margin-top: 5%;
+}
+
+.rebuttals{
+    grid-column-start: 3;
+    margin-top: 13%;
+    background: linear-gradient(white, tomato);
+}
+
+button{
+    background: tomato;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 200px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+button:hover{
+    box-shadow: 0 0 5px 5px black;
+}
+
+#links{
+    background-color: white;
+    border-radius: 15px;
+    padding: 0 20px;
+    color: tomato;
+    border: 3px solid tomato;
+}
+
+#links a{
+    color: black;
+    font-size: 13px;
+    text-align: left;
+}
+
+#links a:hover{
+    text-decoration: underline;
+}
+
+.script,
+.salesForm,
+.compensation,
+.email-template,
+.text-template,
+.ad-template,
+.best-web-post,
+.best-tools,
+.best-web-recruit,
+.get-ubill,
+.resched,
+.reprogram,
+.test,
+.rebut,
+.calendar,
+.crm{
+    display: none;
+    padding: 15px;
+    background: white;
+    border: 3px solid tomato;
+    overflow: scroll;
+    height: 650px;
+}
+
+.youtube{
+    margin-top: 15%;
+}
+
+.content ul a{
+    padding: 0 15px;
+}
+
+.rebuttals{
+    overflow: scroll;
+    padding: 5px;
+    height: 650px;
+}
+
+.rebuttals p{
+    text-align: left;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.rebuttals p:hover{
+    text-decoration: underline;
+}
+
+.rebuttals span{
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+#question1,
+#question2,
+#question3,
+#question4,
+#question5,
+#question6,
+#question7,
+#question8,
+#question9,
+#question10,
+#question11,
+#question12,
+#question13,
+#question14,
+#question15,
+#question16{
+    display: none;
+    text-align: justify center;
+    padding: 10px;
+    font-size: 14px;
+    background-color: white;
+    margin: 15px;
+}
+
