@@ -4,24 +4,28 @@ function script(){
     document.getElementById('get-ubill').style.display="none";
     document.getElementById('resched').style.display="none";
     document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
 }
 function ubill(){
     document.getElementById('script').style.display="none";
     document.getElementById('get-ubill').style.display="block";
     document.getElementById('resched').style.display="none";
     document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
 }
 function resched(){
     document.getElementById('script').style.display="none";
     document.getElementById('get-ubill').style.display="none";
     document.getElementById('resched').style.display="block";
     document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
 }
 function salesForm(){
     document.getElementById('script').style.display="none";
     document.getElementById('get-ubill').style.display="none";
     document.getElementById('resched').style.display="none";
     document.getElementById('salesForm').style.display="block";
+    document.getElementById('youtube').style.display="none";
 }
 function calendar(){
     window.open("https://www.apricot.energy/tubillcalendar","target_blank");
