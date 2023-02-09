@@ -26,17 +26,19 @@ function salesForm(){
      var pass1 = 'buenas2023';
      password = prompt('Enter Page Password')
          if (password==pass1){
+             document.getElementById('script').style.display="none";
+             document.getElementById('get-ubill').style.display="none";
+             document.getElementById('resched').style.display="none";
+             document.getElementById('youtube').style.display="none";
              document.getElementById('salesForm').style.display="block";
          }
          else{
-            window.location = 'https://teddenergy.netlify.app/';
+            document.getElementById('script').style.display="block";
+             document.getElementById('get-ubill').style.display="none";
+             document.getElementById('resched').style.display="none";
+             document.getElementById('youtube').style.display="none";
+             document.getElementById('salesForm').style.display="none";
          }
-
-    document.getElementById('script').style.display="none";
-    document.getElementById('get-ubill').style.display="none";
-    document.getElementById('resched').style.display="none";
-    document.getElementById('salesForm').style.display="block";
-    document.getElementById('youtube').style.display="none";
 }
 function calendar(){
     window.open("https://www.apricot.energy/tubillcalendar","target_blank");
