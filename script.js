@@ -21,6 +21,17 @@ function resched(){
     document.getElementById('youtube').style.display="none";
 }
 function salesForm(){
+     //pw protected page
+     var password;
+     var pass1 = 'buenas2023';
+     password = prompt('Enter Page Password')
+         if (password==pass1){
+             alert('Success');
+         }
+         else{
+            window.location = 'index.html';
+         }
+
     document.getElementById('script').style.display="none";
     document.getElementById('get-ubill').style.display="none";
     document.getElementById('resched').style.display="none";
@@ -34,7 +45,16 @@ function dialer(){
     window.open("https://teddenergy.readymode.com/login_new/?then=/","target_blank");
 }
 function appointment(){
-    window.open("https://docs.google.com/spreadsheets/d/1haiiSi5qNByJzhB7W2eis2Px13UhAdapWW1yoU6tXlU/edit?usp=sharing","target_blank");
+         //pw protected page
+         var password;
+         var pass1 = 'buenas2023';
+         password = prompt('Enter Page Password')
+             if (password==pass1){
+                window.open("https://docs.google.com/spreadsheets/d/1haiiSi5qNByJzhB7W2eis2Px13UhAdapWW1yoU6tXlU/edit?usp=sharing","target_blank");
+             }
+             else{
+                window.location = 'index.html';
+             }
 }
 
 
