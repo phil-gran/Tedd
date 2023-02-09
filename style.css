@@ -19,8 +19,8 @@
 body{
     font-family: var(--font-family);
     background-image: url(images/solarPanel.jpg);
-    background-color: rgb(114, 108, 108);
-    background-blend-mode: screen;
+    background-color: black;
+    background-blend-mode: luminosity;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -171,7 +171,7 @@ button:hover{
 }
 
 .youtube{
-    margin-top: 15%;
+    margin-top: 1%;
 }
 
 .content ul a{
