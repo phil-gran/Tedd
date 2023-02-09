@@ -26,10 +26,10 @@ function salesForm(){
      var pass1 = 'buenas2023';
      password = prompt('Enter Page Password')
          if (password==pass1){
-             alert('Success');
+             document.getElementById('salesForm').style.display="block";
          }
          else{
-            window.location = 'index.html';
+            window.location = 'https://teddenergy.netlify.app/';
          }
 
     document.getElementById('script').style.display="none";
@@ -53,7 +53,7 @@ function appointment(){
                 window.open("https://docs.google.com/spreadsheets/d/1haiiSi5qNByJzhB7W2eis2Px13UhAdapWW1yoU6tXlU/edit?usp=sharing","target_blank");
              }
              else{
-                window.location = 'index.html';
+                window.location = 'https://teddenergy.netlify.app/';
              }
 }
 
