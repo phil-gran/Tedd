@@ -112,7 +112,7 @@ function calendar(){
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="none";
 }
-function dialer(){
+function webphone(){
     window.open("https://teddenergy.readymode.com/login_new/?then=/","target_blank");
 }
 function appointment(){
