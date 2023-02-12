@@ -5,6 +5,21 @@ function script(){
     document.getElementById('resched').style.display="none";
     document.getElementById('salesForm').style.display="none";
     document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
+
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
 }
 function ubill(){
     document.getElementById('script').style.display="none";
@@ -12,6 +27,22 @@ function ubill(){
     document.getElementById('resched').style.display="none";
     document.getElementById('salesForm').style.display="none";
     document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
+
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
 }
 function resched(){
     document.getElementById('script').style.display="none";
@@ -19,6 +50,22 @@ function resched(){
     document.getElementById('resched').style.display="block";
     document.getElementById('salesForm').style.display="none";
     document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
+
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
 }
 function salesForm(){
      //pw protected page
@@ -31,6 +78,7 @@ function salesForm(){
              document.getElementById('resched').style.display="none";
              document.getElementById('youtube').style.display="none";
              document.getElementById('salesForm').style.display="block";
+             document.getElementById('calendar').style.display="none";
          }
          else{
             document.getElementById('script').style.display="block";
@@ -38,10 +86,31 @@ function salesForm(){
              document.getElementById('resched').style.display="none";
              document.getElementById('youtube').style.display="none";
              document.getElementById('salesForm').style.display="none";
+             document.getElementById('calendar').style.display="none";
          }
 }
 function calendar(){
-    window.open("https://www.apricot.energy/tubillcalendar","target_blank");
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="block";
+
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
 }
 function dialer(){
     window.open("https://teddenergy.readymode.com/login_new/?then=/","target_blank");
@@ -59,6 +128,199 @@ function appointment(){
              }
 }
 
+/*GENERAL TOOLS*/
+function compensation(){
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="block";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
+}
+function dialer(){
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="block";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
+}
+function timeZone(){
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="block";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
+}
+function uBillTips(){
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="block";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
+}
+function argument(){
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="block";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
+}
+function eBill(){
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="block";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
+}
+function teddScript(){
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="block";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
+}
+function emailTemplate(){
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="block";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
+}
+function adTemplate(){
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="block";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
+}
+function recruit(){
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="block";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
+}
+function recruitTools(){
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="block";
+    document.getElementById('reprogram').style.display="none";
+}
+function reprogram(){
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="block";
+}
 
 /*REBUTALS JS SCRIPT*/
 function display1(){
