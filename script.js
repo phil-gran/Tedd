@@ -78,7 +78,7 @@ function salesForm(){
              document.getElementById('resched').style.display="none";
              document.getElementById('youtube').style.display="none";
              document.getElementById('salesForm').style.display="block";
-             document.getElementById('calendar').style.display="none";
+             
          }
          else{
             document.getElementById('script').style.display="block";
@@ -130,8 +130,6 @@ function appointment(){
 
 /*GENERAL TOOLS*/
 function compensation(){
-    document.getElementById('script').style.display="none";
-    document.getElementById('youtube').style.display="none";
     document.getElementById('compensation').style.display="block";
     document.getElementById('dialer').style.display="none";
     document.getElementById('timeZone').style.display="none";
@@ -144,10 +142,14 @@ function compensation(){
     document.getElementById('recruit').style.display="none";
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="none";
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
 }
 function dialer(){
-    document.getElementById('script').style.display="none";
-    document.getElementById('youtube').style.display="none";
     document.getElementById('compensation').style.display="none";
     document.getElementById('dialer').style.display="block";
     document.getElementById('timeZone').style.display="none";
@@ -160,10 +162,14 @@ function dialer(){
     document.getElementById('recruit').style.display="none";
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="none";
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
 }
 function timeZone(){
-    document.getElementById('script').style.display="none";
-    document.getElementById('youtube').style.display="none";
     document.getElementById('compensation').style.display="none";
     document.getElementById('dialer').style.display="none";
     document.getElementById('timeZone').style.display="block";
@@ -176,10 +182,14 @@ function timeZone(){
     document.getElementById('recruit').style.display="none";
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="none";
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
 }
 function uBillTips(){
-    document.getElementById('script').style.display="none";
-    document.getElementById('youtube').style.display="none";
     document.getElementById('compensation').style.display="none";
     document.getElementById('dialer').style.display="none";
     document.getElementById('timeZone').style.display="none";
@@ -192,10 +202,14 @@ function uBillTips(){
     document.getElementById('recruit').style.display="none";
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="none";
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
 }
 function argument(){
-    document.getElementById('script').style.display="none";
-    document.getElementById('youtube').style.display="none";
     document.getElementById('compensation').style.display="none";
     document.getElementById('dialer').style.display="none";
     document.getElementById('timeZone').style.display="none";
@@ -208,10 +222,14 @@ function argument(){
     document.getElementById('recruit').style.display="none";
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="none";
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
 }
 function eBill(){
-    document.getElementById('script').style.display="none";
-    document.getElementById('youtube').style.display="none";
     document.getElementById('compensation').style.display="none";
     document.getElementById('dialer').style.display="none";
     document.getElementById('timeZone').style.display="none";
@@ -224,10 +242,14 @@ function eBill(){
     document.getElementById('recruit').style.display="none";
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="none";
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
 }
 function teddScript(){
-    document.getElementById('script').style.display="none";
-    document.getElementById('youtube').style.display="none";
     document.getElementById('compensation').style.display="none";
     document.getElementById('dialer').style.display="none";
     document.getElementById('timeZone').style.display="none";
@@ -240,10 +262,14 @@ function teddScript(){
     document.getElementById('recruit').style.display="none";
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="none";
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
 }
 function emailTemplate(){
-    document.getElementById('script').style.display="none";
-    document.getElementById('youtube').style.display="none";
     document.getElementById('compensation').style.display="none";
     document.getElementById('dialer').style.display="none";
     document.getElementById('timeZone').style.display="none";
@@ -256,10 +282,14 @@ function emailTemplate(){
     document.getElementById('recruit').style.display="none";
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="none";
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
 }
 function adTemplate(){
-    document.getElementById('script').style.display="none";
-    document.getElementById('youtube').style.display="none";
     document.getElementById('compensation').style.display="none";
     document.getElementById('dialer').style.display="none";
     document.getElementById('timeZone').style.display="none";
@@ -272,10 +302,14 @@ function adTemplate(){
     document.getElementById('recruit').style.display="none";
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="none";
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
 }
 function recruit(){
-    document.getElementById('script').style.display="none";
-    document.getElementById('youtube').style.display="none";
     document.getElementById('compensation').style.display="none";
     document.getElementById('dialer').style.display="none";
     document.getElementById('timeZone').style.display="none";
@@ -288,10 +322,14 @@ function recruit(){
     document.getElementById('recruit').style.display="block";
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="none";
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
 }
 function recruitTools(){
-    document.getElementById('script').style.display="none";
-    document.getElementById('youtube').style.display="none";
     document.getElementById('compensation').style.display="none";
     document.getElementById('dialer').style.display="none";
     document.getElementById('timeZone').style.display="none";
@@ -304,10 +342,14 @@ function recruitTools(){
     document.getElementById('recruit').style.display="none";
     document.getElementById('recruitTools').style.display="block";
     document.getElementById('reprogram').style.display="none";
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
 }
 function reprogram(){
-    document.getElementById('script').style.display="none";
-    document.getElementById('youtube').style.display="none";
     document.getElementById('compensation').style.display="none";
     document.getElementById('dialer').style.display="none";
     document.getElementById('timeZone').style.display="none";
@@ -320,6 +362,12 @@ function reprogram(){
     document.getElementById('recruit').style.display="none";
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="block";
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
 }
 
 /*REBUTALS JS SCRIPT*/
