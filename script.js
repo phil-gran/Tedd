@@ -67,28 +67,7 @@ function resched(){
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="none";
 }
-function salesForm(){
-     //pw protected page
-     var password;
-     var pass1 = 'buenas2023';
-     password = prompt('Enter Page Password')
-         if (password==pass1){
-             document.getElementById('script').style.display="none";
-             document.getElementById('get-ubill').style.display="none";
-             document.getElementById('resched').style.display="none";
-             document.getElementById('youtube').style.display="none";
-             document.getElementById('salesForm').style.display="block";
-             
-         }
-         else{
-            document.getElementById('script').style.display="block";
-             document.getElementById('get-ubill').style.display="none";
-             document.getElementById('resched').style.display="none";
-             document.getElementById('youtube').style.display="none";
-             document.getElementById('salesForm').style.display="none";
-             document.getElementById('calendar').style.display="none";
-         }
-}
+
 function calendar(){
     document.getElementById('script').style.display="none";
     document.getElementById('get-ubill').style.display="none";
@@ -114,18 +93,6 @@ function calendar(){
 }
 function webphone(){
     window.open("https://teddenergy.readymode.com/login_new/?then=/","target_blank");
-}
-function appointment(){
-         //pw protected page
-         var password;
-         var pass1 = 'buenas2023';
-         password = prompt('Enter Page Password')
-             if (password==pass1){
-                window.open("https://docs.google.com/spreadsheets/d/1haiiSi5qNByJzhB7W2eis2Px13UhAdapWW1yoU6tXlU/edit?usp=sharing","target_blank");
-             }
-             else{
-                window.location = 'https://teddenergy.netlify.app/';
-             }
 }
 
 /*GENERAL TOOLS*/
