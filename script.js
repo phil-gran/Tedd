@@ -67,7 +67,29 @@ function resched(){
     document.getElementById('recruitTools').style.display="none";
     document.getElementById('reprogram').style.display="none";
 }
+function salesForm(){
+    document.getElementById('script').style.display="none";
+    document.getElementById('get-ubill').style.display="none";
+    document.getElementById('resched').style.display="none";
+    document.getElementById('salesForm').style.display="block";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('calendar').style.display="none";
 
+    document.getElementById('script').style.display="none";
+    document.getElementById('youtube').style.display="none";
+    document.getElementById('compensation').style.display="none";
+    document.getElementById('dialer').style.display="none";
+    document.getElementById('timeZone').style.display="none";
+    document.getElementById('uBillTips').style.display="none";
+    document.getElementById('argument').style.display="none";
+    document.getElementById('eBill').style.display="none";
+    document.getElementById('teddScript').style.display="none";
+    document.getElementById('emailTemplate').style.display="none";
+    document.getElementById('adTemplate').style.display="none";
+    document.getElementById('recruit').style.display="none";
+    document.getElementById('recruitTools').style.display="none";
+    document.getElementById('reprogram').style.display="none";
+}
 function calendar(){
     document.getElementById('script').style.display="none";
     document.getElementById('get-ubill').style.display="none";
@@ -93,6 +115,9 @@ function calendar(){
 }
 function webphone(){
     window.open("https://teddenergy.readymode.com/login_new/?then=/","target_blank");
+}
+function appointment(){
+    window.open("https://docs.google.com/spreadsheets/d/1haiiSi5qNByJzhB7W2eis2Px13UhAdapWW1yoU6tXlU/edit?usp=sharing","target_blank");
 }
 
 /*GENERAL TOOLS*/
